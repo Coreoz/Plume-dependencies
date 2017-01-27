@@ -125,10 +125,10 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-		<plume-framework.version>1.0.0-SNAPSHOT</plume-framework.version>
-		<plume-file.version>1.0.0-SNAPSHOT</plume-file.version>
-		<plume-admin.version>1.0.0-SNAPSHOT</plume-admin.version>
-		<wisp.version>1.0.0-SNAPSHOT</wisp.version>
+		<plume-framework.version>1.0.0-rc1</plume-framework.version>
+		<plume-file.version>1.0.0-rc4</plume-file.version>
+		<plume-admin.version>1.0.0-rc1</plume-admin.version>
+		<wisp.version>1.0.0-rc3</wisp.version>
 		
 		<grizzly.version>2.3.28</grizzly.version>
 		<swagger.version>1.5.12</swagger.version>
