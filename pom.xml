@@ -124,11 +124,11 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-		<plume-framework.version>1.0.0-rc1</plume-framework.version>
-		<plume-file.version>1.0.0-rc4</plume-file.version>
-		<plume-admin.version>1.0.0-rc1</plume-admin.version>
+		<plume-framework.version>1.0.0-rc2</plume-framework.version>
+		<plume-file.version>1.0.0-rc5</plume-file.version>
+		<plume-admin.version>1.0.0-rc2</plume-admin.version>
 		<wisp.version>1.0.0-rc3</wisp.version>
-		
+
 		<grizzly.version>2.3.28</grizzly.version>
 		<swagger.version>1.5.12</swagger.version>
 		<swagger-ui.version>2.2.8</swagger-ui.version>
