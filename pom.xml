@@ -125,16 +125,16 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
 		<plume-framework.version>1.0.0-SNAPSHOT</plume-framework.version>
-		<plume-file.version>1.0.0-rc5</plume-file.version>
+		<plume-file.version>1.0.0-SNAPSHOT</plume-file.version>
 		<plume-admin.version>1.0.0-rc2</plume-admin.version>
 
-		<grizzly.version>2.3.28</grizzly.version>
+		<grizzly.version>2.3.29</grizzly.version>
 		<swagger.version>1.5.12</swagger.version>
 		<swagger-ui.version>2.2.8</swagger-ui.version>
 		<javassist.version>3.20.0-GA</javassist.version>
 		<jbcrypt.version>0.4.1</jbcrypt.version>
 		<jjwt.version>0.7.0</jjwt.version>
-		<lombok.version>1.16.12</lombok.version>
+		<lombok.version>1.16.14</lombok.version>
 	</properties>
 
 	<dependencyManagement>
