@@ -124,10 +124,9 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-		<plume-framework.version>1.0.0-rc2</plume-framework.version>
+		<plume-framework.version>1.0.0-SNAPSHOT</plume-framework.version>
 		<plume-file.version>1.0.0-rc5</plume-file.version>
 		<plume-admin.version>1.0.0-rc2</plume-admin.version>
-		<wisp.version>1.0.0-rc3</wisp.version>
 
 		<grizzly.version>2.3.28</grizzly.version>
 		<swagger.version>1.5.12</swagger.version>
@@ -163,12 +162,6 @@
 				<groupId>com.coreoz</groupId>
 				<artifactId>plume-admin</artifactId>
 				<version>${plume-admin.version}</version>
-			</dependency>
-
-			<dependency>
-				<groupId>com.coreoz</groupId>
-				<artifactId>wisp</artifactId>
-				<version>${wisp.version}</version>
 			</dependency>
 
 			<dependency>
