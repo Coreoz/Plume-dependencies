@@ -124,17 +124,13 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-		<plume-framework.version>1.0.0-rc3</plume-framework.version>
-		<plume-file.version>1.0.0-rc6</plume-file.version>
-		<plume-admin.version>1.0.0-rc2</plume-admin.version>
+		<plume-framework.version>1.0.0-SNAPSHOT</plume-framework.version>
+		<plume-file.version>1.0.0-SNAPSHOT</plume-file.version>
+		<plume-admin.version>1.0.0-SNAPSHOT</plume-admin.version>
 
 		<grizzly.version>2.3.29</grizzly.version>
-		<swagger.version>1.5.12</swagger.version>
-		<swagger-ui.version>2.2.8</swagger-ui.version>
+		<swagger-ui.version>2.2.10-1</swagger-ui.version>
 		<javassist.version>3.20.0-GA</javassist.version>
-		<jbcrypt.version>0.4.1</jbcrypt.version>
-		<jjwt.version>0.7.0</jjwt.version>
-		<lombok.version>1.16.14</lombok.version>
 	</properties>
 
 	<dependencyManagement>
@@ -143,6 +139,13 @@
 				<groupId>com.coreoz</groupId>
 				<artifactId>plume-framework-dependencies</artifactId>
 				<version>${plume-framework.version}</version>
+				<scope>import</scope>
+				<type>pom</type>
+			</dependency>
+			<dependency>
+				<groupId>com.coreoz</groupId>
+				<artifactId>plume-admin-dependencies</artifactId>
+				<version>${plume-admin.version}</version>
 				<scope>import</scope>
 				<type>pom</type>
 			</dependency>
@@ -159,27 +162,11 @@
 			</dependency>
 
 			<dependency>
-				<groupId>com.coreoz</groupId>
-				<artifactId>plume-admin</artifactId>
-				<version>${plume-admin.version}</version>
-			</dependency>
-
-			<dependency>
 				<groupId>org.glassfish.grizzly</groupId>
 				<artifactId>grizzly-websockets</artifactId>
 				<version>${grizzly.version}</version>
 			</dependency>
 
-			<dependency>
-				<groupId>io.swagger</groupId>
-				<artifactId>swagger-annotations</artifactId>
-				<version>${swagger.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>io.swagger</groupId>
-				<artifactId>swagger-jaxrs</artifactId>
-				<version>${swagger.version}</version>
-			</dependency>
 			<dependency>
 				<groupId>org.webjars</groupId>
 				<artifactId>swagger-ui</artifactId>
@@ -189,21 +176,6 @@
 				<groupId>org.javassist</groupId>
 				<artifactId>javassist</artifactId>
 				<version>${javassist.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>de.svenkubiak</groupId>
-				<artifactId>jBCrypt</artifactId>
-				<version>${jbcrypt.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>io.jsonwebtoken</groupId>
-				<artifactId>jjwt</artifactId>
-				<version>${jjwt.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>org.projectlombok</groupId>
-				<artifactId>lombok</artifactId>
-				<version>${lombok.version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
