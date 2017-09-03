@@ -51,6 +51,16 @@
 		</repository>
 	</distributionManagement>
 
+	<repositories>
+		<repository>
+			<id>oss.public</id>
+			<url>https://oss.sonatype.org/content/groups/public</url>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
+
 	<profiles>
 		<profile>
 			<id>release</id>
@@ -124,9 +134,9 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-		<plume-framework.version>1.0.0-SNAPSHOT</plume-framework.version>
-		<plume-file.version>1.0.0-SNAPSHOT</plume-file.version>
-		<plume-admin.version>1.0.0-SNAPSHOT</plume-admin.version>
+		<plume-framework.version>1.0.0</plume-framework.version>
+		<plume-file.version>1.0.0-rc9</plume-file.version>
+		<plume-admin.version>1.0.0</plume-admin.version>
 
 		<grizzly.version>2.4.1</grizzly.version>
 		<swagger-ui.version>2.2.10-1</swagger-ui.version>
