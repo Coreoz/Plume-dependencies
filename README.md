@@ -1,6 +1,8 @@
 Plume Dependencies
 ==================
 
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.coreoz/plume-dependencies/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.coreoz/plume-dependencies)
+
 Plume Dependencies fixed all maven dependencies that are used in the Plume ecosystem:
 - [Plume Framework](https://github.com/Coreoz/Plume): the lightweight modular Java framework
 - [Plume Admin](https://github.com/Coreoz/Plume-admin): provides Jersey web services to build an administration area
