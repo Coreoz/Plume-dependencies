@@ -134,13 +134,13 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-		<plume-framework.version>1.1.1</plume-framework.version>
+		<plume-framework.version>2.0.0-beta1</plume-framework.version>
 		<plume-file.version>1.0.0-rc9</plume-file.version>
 		<plume-admin.version>1.0.1</plume-admin.version>
 
-		<grizzly.version>2.3.28</grizzly.version>
+		<grizzly.version>2.4.3.1</grizzly.version>
 		<swagger-ui.version>2.2.10-1</swagger-ui.version>
-		<javassist.version>3.22.0-GA</javassist.version>
+		<javassist.version>3.24.1-GA</javassist.version>
 	</properties>
 
 	<dependencyManagement>
