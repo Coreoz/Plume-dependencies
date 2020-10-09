@@ -27,7 +27,7 @@ The pom.xml should contains something like:
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
 
-    <plume.version>2.0.0</plume.version>
+    <plume.version>2.0.1</plume.version>
   </properties>
 
   <!-- The POM import of Plume Dependencies -->
