@@ -136,7 +136,7 @@
 
 		<plume-framework.version>2.1.0</plume-framework.version>
 		<plume-file.version>1.0.0-rc9</plume-file.version>
-		<plume-admin.version>2.1.1</plume-admin.version>
+		<plume-admin.version>2.1.2</plume-admin.version>
 
 		<grizzly.version>3.0.0</grizzly.version>
 		<swagger-ui.version>2.2.10-1</swagger-ui.version>
