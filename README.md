@@ -24,10 +24,10 @@ The pom.xml should contains something like:
 <project>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>16</maven.compiler.source>
-    <maven.compiler.target>16</maven.compiler.target>
+    <maven.compiler.source>17</maven.compiler.source>
+    <maven.compiler.target>17</maven.compiler.target>
 
-    <plume.version>2.1.2</plume.version>
+    <plume.version>3.0.0</plume.version>
   </properties>
 
   <!-- The POM import of Plume Dependencies -->
