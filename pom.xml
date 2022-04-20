@@ -134,12 +134,14 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-		<plume-framework.version>3.0.0</plume-framework.version>
+		<plume-framework.version>3.0.1-SNAPSHOT</plume-framework.version>
 		<plume-file.version>1.0.0-rc9</plume-file.version>
-		<plume-admin.version>3.0.0</plume-admin.version>
+		<plume-admin.version>3.0.1-SNAPSHOT</plume-admin.version>
 
-		<grizzly.version>3.0.0</grizzly.version>
-		<swagger-ui.version>3.52.1</swagger-ui.version>
+		<grizzly.version>3.0.1</grizzly.version>
+		<!-- Not possible to upgrade further because of https://github.com/swagger-api/swagger-ui/issues/7702 -->
+		<!-- And the url parameter is the only feature that is used: But relative paths should be allowed -->
+		<swagger-ui.version>4.1.2</swagger-ui.version>
 		<javassist.version>3.28.0-GA</javassist.version>
 	</properties>
 
