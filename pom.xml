@@ -137,7 +137,7 @@
 		<plume-framework.version>4.1.1</plume-framework.version>
 		<!-- TODO: upgrade or delete in Plume 5 -->
 		<plume-file.version>1.0.0-rc9</plume-file.version>
-		<plume-admin.version>4.1.0</plume-admin.version>
+		<plume-admin.version>4.2.0</plume-admin.version>
 
 		<grizzly.version>3.0.1</grizzly.version>
 		<!-- Not possible to upgrade further because of https://github.com/swagger-api/swagger-ui/issues/7702 -->
