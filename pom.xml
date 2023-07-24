@@ -4,7 +4,7 @@
 
 	<groupId>com.coreoz</groupId>
 	<artifactId>plume-dependencies</artifactId>
-	<version>4.3.2-SNAPSHOT</version>
+	<version>4.3.2</version>
 	<packaging>pom</packaging>
 
 	<name>Plume Dependencies</name>
@@ -37,7 +37,7 @@
 		<developerConnection>scm:git:git@github.com:Coreoz/Plume-dependencies.git</developerConnection>
 		<connection>scm:git:git@github.com:Coreoz/Plume-dependencies.git</connection>
 		<url>https://github.com/Coreoz/Plume-dependencies</url>
-		<tag>HEAD</tag>
+		<tag>4.3.2</tag>
 	</scm>
 
 	<distributionManagement>
