@@ -19,7 +19,7 @@ This Maven import feature enables:
 ```
 
 This project provides a POM file that should be imported in the maven project file when using Plume Framework.
-The pom.xml should contains something like:
+The pom.xml should contain something like:
 ```xml
 <project>
   <properties>
