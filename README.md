@@ -9,7 +9,7 @@ Plume Dependencies fixed all maven dependencies that are used in the Plume ecosy
 - [Plume File](https://github.com/Coreoz/Plume-file): a group of modules to manage files
 
 This Maven import feature enables:
-- to resolve maven conflicts: there will not be a dependency that bring an old version of Jackson that will break Swagger
+- to resolve maven conflicts: there will not be a dependency that brings an old version of Jackson that will break Swagger
 - to facilitate the integration of a Plume module: there is no need to specify Plume dependencies versions:
 ```xml
 <dependency>
@@ -27,7 +27,7 @@ The pom.xml should contain something like:
     <maven.compiler.source>17</maven.compiler.source>
     <maven.compiler.target>17</maven.compiler.target>
 
-    <plume.version>4.3.6</plume.version>
+    <plume.version>5.0.0-beta1</plume.version>
   </properties>
 
   <!-- The POM import of Plume Dependencies -->
