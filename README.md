@@ -27,7 +27,7 @@ The pom.xml should contain something like:
     <maven.compiler.source>17</maven.compiler.source>
     <maven.compiler.target>17</maven.compiler.target>
 
-    <plume.version>5.0.0-beta1</plume.version>
+    <plume.version>5.0.0-beta2</plume.version>
   </properties>
 
   <!-- The POM import of Plume Dependencies -->
