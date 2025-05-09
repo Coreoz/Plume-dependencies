@@ -124,7 +124,7 @@
 
 		<plume-framework.version>5.0.0</plume-framework.version>
 		<plume-file.version>4.0.0</plume-file.version>
-		<plume-admin.version>5.0.0</plume-admin.version>
+		<plume-admin.version>5.1.0</plume-admin.version>
 
 		<grizzly.version>3.0.1</grizzly.version>
 
