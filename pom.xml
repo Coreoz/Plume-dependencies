@@ -134,9 +134,9 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-		<plume-framework.version>5.0.0-beta1</plume-framework.version>
-		<plume-file.version>4.0.0-beta1</plume-file.version>
-		<plume-admin.version>5.0.0-beta1</plume-admin.version>
+		<plume-framework.version>5.0.2-SNAPSHOT</plume-framework.version>
+		<plume-file.version>4.0.0-SNAPSHOT</plume-file.version>
+		<plume-admin.version>5.1.1-SNAPSHOT</plume-admin.version>
 
 		<grizzly.version>4.0.2</grizzly.version>
 
