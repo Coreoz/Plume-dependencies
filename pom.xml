@@ -138,10 +138,10 @@
 		<plume-file.version>4.0.0-SNAPSHOT</plume-file.version>
 		<plume-admin.version>5.1.1-SNAPSHOT</plume-admin.version>
 
-		<grizzly.version>4.0.2</grizzly.version>
+		<grizzly.version>4.1.0</grizzly.version>
 
-		<swagger-ui.version>5.17.14</swagger-ui.version>
-		<javassist.version>3.30.2-GA</javassist.version>
+		<swagger-ui.version>5.33.2</swagger-ui.version>
+		<javassist.version>3.33.0-GA</javassist.version>
 	</properties>
 
 	<dependencyManagement>
